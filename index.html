@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practic-5</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="side-image left"></div>
+    <div class="main-content">
+    <form>
+        <div class="question">
+            <p>Як звати фінального боса в грі Dark Souls 3?</p>
+            <label for="q1a1">
+                <input type="radio" id="q1a1" name="q1" value="incorrect">Душа Праху</label>
+            <label for="q1a2">
+                <input type="radio" id="q1a2" name="q1" value="correct">Безіменний Король</label>
+            <label for="q1a3">
+                <input type="radio" id="q1a3" name="q1" value="incorrect">Сторожі Безодні</label>
+        </div>
+        <div class="question">
+            <p>Яка з цих професій не є початковою в грі Dark Souls 3?</p>
+            <label for="q2a1">
+                <input type="radio" id="q2a1" name="q2" value="incorrect">Пиромант</label>
+            <label for="q2a2">
+                <input type="radio" id="q2a2" name="q2" value="incorrect">Клерик</label>
+            <label for="q2a3">
+                <input type="radio" id="q2a3" name="q2" value="correct">Відьмак</label>
+        </div>
+        <div class="question">
+            <p>Яке місце відоме як Місто Мерцівих?</p>
+            <label for="q3a1">
+                <input type="radio" id="q3a1" name="q3" value="incorrect">Анор Лондо</label>
+            <label for="q3a2">
+                <input type="radio" id="q3a2" name="q3" value="correct">Переселення Неживих</label>
+            <label for="q3a3">
+                <input type="radio" id="q3a3" name="q3" value="incorrect">Вогненний Стрілець</label>
+        </div>
+        <button type="submit">Перевірити відповіді</button>
+    </form>
+</div>
+    <div class="side-image right"></div>
+    <!-- Модальне вікно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
